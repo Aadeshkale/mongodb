@@ -1,0 +1,16 @@
+1.Show All Available databases
+
+	command:- show dbs
+
+2.Create New database
+	
+	command:- use <datdabase_name>
+	example,  use demo
+
+3.Deleting database 
+  
+	commands:- use <database_name>
+			db.dropDatabase <database_name>
+	example, use demo
+		    db.dropDatdabase demo 	  
+		
