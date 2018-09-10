@@ -1,0 +1,4 @@
+1.Load Data From JavaScript File
+	
+	command: load('file_location_filename.js')
+	example: load('X:/demo.js')  	
