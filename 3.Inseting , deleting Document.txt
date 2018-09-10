@@ -1,0 +1,27 @@
+1.Inseting Document
+
+	command: db.collection_name.insert()
+	
+	
+	example: db.info.insert({
+			'name':{
+				'first':'aade'
+				'last' :'kale'
+				},
+			'age':22,
+			'sal':20000,
+			'address':{
+				'city':'aurangabad',
+				'state':'maharastra'	
+				}
+
+			})
+
+2.Deletion of document
+
+	command: db.collection_name.remove(condition)
+	example: db.info.remove({'name.first':'aade'})
+
+	command: db.collection_name.deleteOne(condition)
+	example: db.info.deleteOne({'name.first':'aade'})
+	
