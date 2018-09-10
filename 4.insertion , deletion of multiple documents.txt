@@ -1,0 +1,24 @@
+1. Inserting multiple documents
+
+	Command: db.collection_name.insertMany()
+
+	example: db.info.insertMany([
+		{name:'aade',age:22,sal:20000,address:'n2 cidco'},
+		{name:'sachin',age:22,sal:20000,address:'n5 cidco'},
+		{name:'vivek',age:22,sal:20000,address:'n2 cidco'},
+		{name:'shradha',age:22,sal:20000,address:'n2 cidco'},
+		{name:'kunnal',age:22,sal:20000,address:'n2 cidco'},
+	])
+
+
+2.Deleting multiple documents 
+
+	command:
+		db.collection_name.remove(condition,{justOne:false})
+
+	example: db.info.remove({sal:200000},{justOne:false})
+
+3.Deleting multiple documents
+
+	command: db.collection_name.deleteMany(condition)
+	example: db.info.deleteMany('sal':{$eq:20000})
