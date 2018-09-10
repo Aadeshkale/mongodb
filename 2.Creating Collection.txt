@@ -1,0 +1,14 @@
+1.Creating collection 
+
+ 	command : db.creteCollection("<collection_name>")
+	example : bd.createCollection("info")
+
+2.Show all availabel existing collections in the database
+
+	command : show collections
+	example : show collections
+
+3.Deleting collection
+
+	command : db.<collection_name>.drop()
+	example : db.info.drop()
