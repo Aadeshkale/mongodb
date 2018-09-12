@@ -1,0 +1,9 @@
+Update mongodb document record 
+	
+command: 
+
+db.collection.update({condition},{$set:{'key':'new_data'}})
+
+example:
+
+ db.author.update({'name.last':'shivam'},{$set:{age:22}})
