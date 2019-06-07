@@ -1,7 +1,7 @@
 1.Creating collection 
 
  	command : db.creteCollection("<collection_name>")
-	example : bd.createCollection("info")
+	example : db.createCollection("info")
 
 2.Show all availabel existing collections in the database
 
